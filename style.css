@@ -1,0 +1,41 @@
+main{
+    grid-template-columns: 2fr 1fr;
+    display: grid;
+    grid-template-areas:"h h"
+                        "n n"
+                        "a as"
+                        "f f" ;
+    background-color: burlywood;
+    gap:  10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    grid-area: h;
+    text-align: center;
+    gap: 5px;
+}
+nav{
+    grid-area: n;
+    ;
+}
+nav a{
+    border: 1px red double;
+}
+article{
+    grid-area: a;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 20px;
+}
+article .aru{
+    background-color: white;
+    border: 1px darkblue dotted;
+}
+aside{
+    grid-area: as;
+    background-color: white;
+}
+footer{
+    grid-area: f;
+}
