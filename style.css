@@ -78,7 +78,7 @@ padding-top: 500px ;
                          "f"
     }
     main p{
-        font-size: calc(8px + 2vw);
+        font-size: calc(8px + 2vw + 2px);
     }
     nav{
         grid-template-columns: 1fr;
