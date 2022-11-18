@@ -39,3 +39,6 @@ aside{
 footer{
     grid-area: f;
 }
+aside p{text-align: start;
+padding-top: 500px ;
+}
