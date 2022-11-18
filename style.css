@@ -16,7 +16,11 @@ header{
 }
 nav{
     grid-area: n;
-    ;
+    grid-template-columns: 75px 75px 75px;
+    padding: 0;
+    margin: 0;
+    
+    display: grid;
 }
 nav a{
     border: 1px red double;
@@ -42,8 +46,9 @@ aside{
 }
 footer{
     grid-area: f;
+    text-align: center;
 }
-p{
+aside li{
     font-size: calc(8px + 2vw);
 }
 aside p{text-align: start;
