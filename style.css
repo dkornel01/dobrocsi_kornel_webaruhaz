@@ -8,6 +8,7 @@ main{
     background-color: burlywood;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
+    font-size: calc(8px + 1vw);
 }
 header{
     grid-area: h;
@@ -16,9 +17,8 @@ header{
 }
 nav{
     grid-area: n;
-    grid-template-columns: 75px 75px 75px;
-    padding: 0;
-    margin: 0;
+    grid-template-columns: 100px 100px 100px;
+    
     
     display: grid;
 }
@@ -29,9 +29,8 @@ article{
     grid-area: a;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     display: grid;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
+    gap: 10px;
+    ;
 }
 article .aru{
     background-color: white;
@@ -39,6 +38,9 @@ article .aru{
 }
 article img{
     width: 80%;
+}
+article p{
+    padding: 10px;
 }
 aside{
     grid-area: as;
@@ -48,9 +50,7 @@ footer{
     grid-area: f;
     text-align: center;
 }
-aside li{
-    font-size: calc(8px + 2vw);
-}
+
 aside p{text-align: start;
 padding-top: 500px ;
 }
@@ -78,7 +78,7 @@ padding-top: 500px ;
                          "f"
     }
     main p{
-        font-size: 10px;
+        font-size: calc(8px + 2vw);
     }
     nav{
         grid-template-columns: 1fr;
